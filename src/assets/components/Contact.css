@@ -1,0 +1,311 @@
+.App {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts{
+  width: 29%;
+  display: grid;
+  transform: translatey(-110px);
+  gap: 40px;
+}
+.contactp{
+  background-image: url('../images/iceland.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.contactp p{
+  padding: 30%;
+  font-size: 4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form{
+  box-shadow: 2px 2px 4px;
+   width: 60%;
+   height: 40%;
+   padding: 2%;
+  
+}
+.contact-input{
+  padding: 20px;
+  width: 288px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.contact-text{
+  padding: 50px;
+  width: 80%;
+  border-radius: 7px;
+  margin-left: 16px;
+  
+}
+.iconss{
+  transform: translatex(20px);
+  /* transform: translatey(-5px); */
+  color: #c29d59;
+  font-size: 20px;
+}
+.inputtt{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-submit{
+  padding: 2%;
+  width: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  margin-left: 16px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  background-color: #c29d59;
+
+}
+
+.contact1{
+  box-shadow: 2px 2px 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 7%;
+  height: 180px;
+  width: 300px;
+  gap: 20px;
+  background-color:#f6f6f6;
+ }
+ .contact1 b{
+  font-size: 18px;
+  padding-left: 3px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-left: 3px solid #c29d59;
+ }
+
+ .contact1-2 {
+  gap: 5px;
+  display: flex;
+  flex-direction:column ;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:  #ccc;
+ 
+ }
+ .contact2{
+  display: flex;
+  gap: 20px;
+  height: 180px;
+  width: 300px;
+  padding: 7%;
+  box-shadow: 2px 2px 4px;
+  background-image: url('../images/images-7.jpeg');
+  
+  flex-direction: column;
+ }
+ .contact2-1{
+  display: grid;
+  color: aliceblue;
+  grid-gap: 20px;
+ }
+ .contact2 b{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  font-size: 20px;
+ padding-left: 3px;
+  border-left: 3px solid black;
+ }
+ .contact2 p{
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+ 
+
+ @media (max-width:1200px) {
+ 
+  .contactp{
+    background-image: url('../images/iceland.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+  .column{
+    display: grid;
+    grid-gap: 20px;
+  }
+ 
+  .iconss{
+    display: none;
+  }
+  .contact-text{ 
+    width: 73%;
+  }
+  .contact-input{
+    margin-left: 15px;
+    width: 85%;
+  }
+  .form{
+    box-shadow: 2px 2px 4px;
+     width: 75%;
+     
+     padding: 2%;
+    
+  }
+  .inputtt{
+    display: grid;
+    grid-gap: 20px;
+  }
+ .contact1, .contact2{
+ padding-left: 30%;
+  width: 30vh;
+ }
+ .contact{
+  margin: 5%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+.contacts{
+  width: 29%;
+  display: grid;
+  transform: translatey(0px);
+  gap: 40px;
+}
+ }
+
+ @media (max-width:768px) {
+  .iconss{
+    display: none;
+  }
+  .contact{
+  margin: 5%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+.contacts{
+  width: 29%;
+  display: grid;
+  transform: translatey(0px);
+  gap: 40px;
+}
+.contact-text{
+  padding: 20px;
+  width: 280px;
+  border-radius: 7px;
+  margin-left: 0px;
+  
+}
+.form{
+  box-shadow: 2px 2px 4px;
+   width: 75%;
+   height: 40%;
+   padding: 2%;
+  
+}
+.contact-input{
+  width: 280px;
+}
+
+ }
+
+
+
+
+
+ @media (max-width:475px) {
+
+  .contact{
+  margin: 5%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+}
+.contacts{
+  width: 29%;
+  display: grid;
+  transform: translatey(0px);
+  gap: 40px;
+}
+.form{
+  box-shadow: 2px 2px 4px;
+   width: 100%;
+   height: 40%;
+   padding: 2%;
+  
+}
+.contact-text{
+  padding: 20px;
+  width: 288px;
+  border-radius: 7px;
+  margin-left: 0px;
+  
+}
+.contactp p{
+
+  
+  padding-top: 40%;
+  font-size: 3rem;
+  
+}
+.contactp{
+
+  height: 80vh;
+}
+
+ }
+ @media (max-width: 420px) {
+  .contact-text{
+    padding: 20px;
+    width: 85%;
+    border-radius: 7px;
+    margin-left: 0px;
+    
+  }
+  .form{
+    box-shadow: 2px 2px 4px;
+     width: 90%;
+     height: 40%;
+     padding: 2%;
+    
+  }
+
+  .iconss{
+    display: none;
+  }
+ 
+  .column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-input{
+    margin-left: 1%;
+    width: 85%;
+  }
+  .contactp{
+    background-image: url('../images/iceland.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+  .contact-submit{
+    padding: 20px;
+    width: 40%;
+  }
+  .contact1, .contact2{
+    
+     width: 28.6vh;
+    }
+ }

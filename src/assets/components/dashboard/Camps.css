@@ -1,0 +1,193 @@
+.camps{
+    display: grid;
+    margin-top: 10px;
+    grid-gap: 90px;
+}
+
+
+.chartsdash{
+    
+   margin-left: 5%;
+  
+display: flex;
+gap: 20px;
+    
+  
+}
+.campscard{
+    margin-left: 7%;
+    display: flex;
+    gap: 33px;
+}
+.iconn{
+    color: #252427;
+    font-size: 20px;
+}
+.usercard{
+    box-shadow: 0px 0px 2px;
+    width: 13%;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+    height: 70px;
+    background-color: #e9eb87;
+}
+.tourdashcard{
+    box-shadow: 0px 0px 2px;
+    width: 13%;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+    height: 70px;
+    background-color: #b9f18c;  
+}
+.bookingcard{
+    box-shadow: 0px 0px 2px;
+    width: 13%;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+    height: 70px;
+    background-color: #938274;
+}
+.messagedashcard{
+    box-shadow: 0px 0px 2px;
+    width: 13%;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+    height: 70px;
+    background-color: #7b5e7b;
+
+}
+
+
+@media (max-width:768px) {
+    .campscard{
+        margin-top: 10px;
+        margin-left: 2%;
+        display: flex;
+        gap: 20px;
+    }
+  
+  
+    .usercard{
+        
+        width: 20%;
+      
+    }
+    
+    .bookingcard{
+       
+        width: 20%;
+       
+    }
+  
+    .chartsdash{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     
+     gap: 0px;
+         
+       
+     }
+  
+    
+}
+
+@media (max-width:1024px) {
+    .campscard{
+        margin-top: 10px;
+        margin-left: 2%;
+        display: flex;
+        gap: 20px;
+    }
+  
+  
+    .usercard{
+      
+        
+        width: 20%;
+      
+    }
+    .messagedashcard{
+        width: 20%;
+    }
+    .tourdashcard{
+        width: 20%;
+    }
+    .bookingcard{
+       
+        width: 20%;
+       
+    }
+  
+   
+     .chartsdash{
+    
+        margin-left: 2%;
+       
+     display: flex;
+     gap: 10px;
+         
+       
+     }
+  
+    
+}
+
+@media (max-width:480px) {
+    .campscard{
+        margin-top: 10px;
+        margin-left: 15%;
+        display: flex;
+       flex-direction: column;
+
+        gap: 20px;
+    }
+    .messagedashcard{
+        width: 80%;
+    }
+    .tourdashcard{
+        width: 80%;
+    }
+  
+    .usercard{
+        
+        width: 80%;
+      
+    }
+    
+    .bookingcard{
+       
+        width: 80%;
+       
+    }
+  
+    .chartsdash{
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     
+     gap: 0px;
+         
+       
+     }
+  
+    
+}

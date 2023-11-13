@@ -1,0 +1,118 @@
+
+.photodash {
+  width: 80px; 
+  height: 85px; 
+  border-radius: 30%;
+  object-fit: cover; 
+  border: solid 1px mediumvioletred;
+}
+.dushboard_header1
+{
+  background-color: #ffffff;
+  /* box-shadow: 0px 0px 2px; */
+
+   border: 1px solid rgb(235, 234, 234);
+   border-radius: 5px;
+  height: 100%;
+  padding-top: 8px;
+ position: fixed;
+  color: black;
+}
+.image_sidebar
+{
+ padding-left: 1rem;
+}
+.image_sidebar{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.nameelisa
+{
+  padding-top: 1.2rem;
+  color: rgb(27, 26, 26);
+  font-size: 1.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidebar_subholder
+{
+  margin-left: 2rem;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+li {
+  list-style-type: none; /* Remove the default list bullet */
+  margin-bottom: 10px; 
+}
+.list_dash {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 2px;
+  display: inline-block;
+
+}
+ .list_dash:hover{
+  color:rgb(215, 43, 152) ;
+}
+ .list_dash:active{
+  color:rgb(215, 43, 152) ;
+}
+
+.logout
+{
+  padding-top: 1.3rem;
+}
+.dom_dash
+{
+  color: rgb(215, 43, 152);
+}
+.dom_dash1
+{
+  color: blue;
+}
+@media (max-width: 480px) {
+
+
+}
+ 
+@media (max-width:1024px) {
+
+  .photodash {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 30%; 
+    object-fit: cover; 
+    border: solid 1px mediumvioletred;
+  }
+
+  .nameelisa {
+    padding-top: 9px;
+    color: rgb(27, 26, 26);
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .list_dash {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 0px;
+    display: inline-block;
+   
+  }
+  
+}
+@media (max-width:768px) {
+.photodash{
+display: none;
+}
+.dashhold{
+  display: none;
+}
+
+}

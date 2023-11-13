@@ -1,0 +1,72 @@
+.user-registration-container {
+  width: 60vh;
+   position: absolute;
+    height: 70vh;
+  margin-left: 15%;
+  margin-top: -28%;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-registration-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-groupedit{
+    margin-bottom: 20px;
+  }
+  
+  .form-groupedit label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.edit-input{
+    width: 85%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="file"] {
+    padding: 5px;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .btn-register {
+
+    padding: 10px;
+    background-color: #c29d59;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  .btn-register:hover {
+    background-color: #0056b3;
+  }
+  .form-groupbut{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  @media (max-width:768px) {
+    
+  }

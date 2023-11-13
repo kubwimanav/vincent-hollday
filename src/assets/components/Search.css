@@ -1,0 +1,63 @@
+
+.search{
+  position: fixed;
+  /* border: 1px solid red; */
+top:0;
+left: 0;
+bottom: 0;
+z-index: 8888;
+background-color: #2B2B2B;
+right: 0;
+animation: scroll From Right 1S ease;
+}
+.top {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 8%;
+    justify-content: space-between;
+    
+    
+}
+.top-image{
+    margin-left: 10%;
+}
+.BOTH{
+    padding-right: 10%;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.navigation {
+    align-items: center;
+    margin-top: 4%;
+    width: 30%;
+    
+}
+
+/* Style for the navigation links */
+.navigation a {
+    padding: 3px;
+    display: block;
+  text-decoration: none;
+  padding-left: 35%;
+  gap: 30px;
+  color: white;
+  background-color: #393939;
+  font-size: 20px;
+ 
+  align-items: center;
+}
+
+/* Style for the social media icons on the left */
+.social-media {
+    font-size: 30px;
+    width: 40px;
+    gap: 20px;
+  color: burlywood;
+   align-items: center;
+    margin-left: 80%;
+    display: grid;
+   
+}
+
+

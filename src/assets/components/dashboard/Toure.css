@@ -1,0 +1,137 @@
+.chartsss{
+    margin-left: 5% ;
+}
+.tourtable{
+    width: 93%;
+   
+  
+
+}
+
+.tourtable td{
+    padding: 34px;
+}
+
+.tablerows{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tourebuttons{
+    display: flex;
+   
+    gap: 10px;
+}
+.toure-edit{
+    background-color: rgb(103, 165, 144);
+    color: #fbfafa;
+    border-radius: 4px;
+   
+    border: none;
+    padding: 5px;
+}
+.toure-delete{
+    background-color: #c29d59;
+    padding: 5px;
+    border: none;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+
+.tourtable tr:nth-child(odd) {
+    background-color: rgb(249, 249, 249);
+    border: none;
+  }
+  .tourtable tr:nth-child(even) {
+    background-color: rgb(247, 247, 247);
+    border: none;
+    border-color: white;
+  }
+
+
+
+
+@media (max-width: 1024px) {
+    .chartsss{
+        margin-left: 2.5% ;
+    } 
+  
+    
+}
+@media (max-width: 980px) {
+  
+    .chartsss{
+        margin-left: 2.5% ;
+    }
+    .tourtable{
+        width: 97%;
+       
+      
+    
+    }
+    .tourtable td{
+        font-size: 14px;
+        padding: 21px;
+    }
+    .toure-edit{
+        font-size: 12px;
+    }
+    .toure-delete{
+        font-size: 12px;
+    }
+    
+}
+/* @media (max-width: 900px) {
+  
+    .tourtable td{
+        padding: 17px;
+    }
+    .tourtable{
+       width: 40%;
+    
+    }
+} */
+@media (max-width: 768px) {
+    .chartsss{
+        margin-left: 2% ;
+    }
+    .tourtable{
+        width: 98%;
+       
+      
+    
+    }
+    .tourtable td{
+        font-size: 14px;
+        padding: 21px;
+    }
+    .toure-edit{
+        font-size: 12px;
+    }
+    .toure-delete{
+        font-size: 12px;
+    }
+}
+@media (max-width: 420px) {
+    .chartsss{
+        margin-left: 0% ;
+        
+    }
+    .tourtable{
+        width: 80%;
+       
+      
+    
+    }
+    .tourtable td{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .toure-edit{
+        font-size: 12px;
+    }
+    .toure-delete{
+        font-size: 12px;
+    }
+}

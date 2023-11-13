@@ -1,0 +1,71 @@
+.signupform{
+    
+   
+    width: 50%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    
+ /* transform: translateX(-350px); */
+  }
+   .signup{
+    
+    display: flex;
+    
+   }
+
+  
+ .signuph2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .signuplabel {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+   
+  }
+  
+  .signupinput {
+    width: 50%;
+    padding: 17px;
+    margin-bottom: 4px;
+    border: 1px solid #f0eeee;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 16px;
+    
+  }
+  
+ .signupbutton {
+  background:  #c29d59;
+  color: #fff;
+  width: 40%;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  }
+  
+  .signupbutton:hover {
+    background-color: #3b3f41;
+  } 
+  @media (max-width: 420px) {
+
+    .loginimage{
+      display: none;
+
+    }
+    .signupform{
+    
+   
+      width: 95%;
+    }
+    .signupinput {
+      width: 85%;
+    
+    }
+  }

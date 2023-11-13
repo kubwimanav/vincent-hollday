@@ -1,0 +1,32 @@
+.esearch{
+    
+    padding: 20%  10% 10% 40%;
+}
+.topo{
+    display: block;
+   font-weight: initial;
+    padding: 10px;
+    justify-content: space-between;
+    width: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+   text-decoration: none;
+   
+}
+.topo:hover{
+    color: rgb(163, 158, 153);
+}
+
+.esearch{
+
+   position:fixed;
+    
+  top:0;
+  left: 0;
+  bottom: 0;
+  z-index: 8888;
+  background-color: #2B2B2B;
+  right: 0;
+  animation: scroll From Right 1S ease;
+  }

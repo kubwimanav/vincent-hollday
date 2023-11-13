@@ -1,0 +1,160 @@
+.friend-contnainer{
+    padding-top: 1%;
+     margin-left: 8%; 
+    
+  
+}
+
+.place-delete{
+  font-size: 16px;
+  padding: 7%;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  background-color: #c29d59;
+}
+.place-delete:hover{
+  background-color: black;
+}
+.place-edit{
+  font-size: 16px;
+  padding: 10%;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(103, 165, 144);
+  border: none;
+}
+.place-edit:hover{
+  background-color: black;
+}
+
+.placetable td{
+  padding: 21px 50px 21px 50px;
+  
+  font-size: 17px;
+}
+.placetable tr:nth-child(odd) {
+    background-color: rgb(246, 246, 246);
+    border: none;
+  }
+  .placetable tr:nth-child(even) {
+    background-color: white;
+    border: none;
+    border-color: white;
+  }
+  .pagination{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 30%;
+  }
+  .prevBtn{
+    padding: 5px;
+    box-shadow: 0px 0px 1px;
+  }
+  .next{
+    box-shadow: 0px 0px 1px;
+    padding: 5px;
+  }
+  .prevBtn :hover{
+background-color: rgb(43, 115, 178);
+  }
+  .next :hover{
+    background-color: rgb(43, 115, 178);
+      }
+      .pagination :hover{
+        background-color: rgb(43, 115, 178);
+          }
+          
+  .paginationactve{
+    box-shadow: 0px 0px 1px;
+    padding: 5px;
+    background-color: #c29d59;
+  }
+
+  @media (max-width:1024px) {
+    .friend-contnainer{
+       padding-top: 1%;
+       margin-left: 3%; 
+       
+     
+   }
+   
+   .placetable td{
+     font-size: 18px;
+     padding: 19px;
+     
+   }
+   .place-edit{
+   font-size: 16px;
+   }
+   .place-delete{
+     font-size: 16px;
+   }
+   }
+
+  @media (max-width:980px) {
+   .friend-contnainer{
+      padding-top: 1%;
+      margin-left: 3%; 
+      
+    
+  }
+  
+  .placetable td{
+    font-size: 16px;
+    padding: 13px;
+    
+  }
+  .place-edit{
+  font-size: 16px;
+  }
+  .place-delete{
+    font-size: 16px;
+  }
+  }
+
+
+
+
+  @media (max-width:768px) {
+    .friend-contnainer{
+      padding-top: 1%;
+       margin-left: 0.5%; 
+      
+    
+  }
+  
+  .placetable td{
+    font-size: 15px;
+    padding: 13px;
+    
+  }
+  .place-edit{
+  font-size: 15px;
+  }
+  .place-delete{
+    font-size: 15px;
+  }
+  }
+  @media (max-width:480px) {
+    .friend-contnainer{
+      padding-top: 1%;
+       margin-left: 0.5%; 
+      
+    
+  }
+  
+  .placetable td{
+    font-size: 12px;
+    padding: 1px;
+    
+  }
+  .place-edit{
+  font-size: 12px;
+  }
+  .place-delete{
+    font-size: 12px;
+  }
+
+  }

@@ -1,0 +1,45 @@
+.buttonbook{
+    margin: 23px;
+    font-size: 14px;
+    padding: 7%;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background-color: #c29d59; 
+}
+.calendatable td{
+    padding: 20px 40px 20px 40px;
+    
+  }
+  .calendatable tr:nth-child(odd) {
+      background-color: rgb(246, 246, 246);
+      border: none;
+    }
+    .calendatable tr:nth-child(even) {
+      background-color: white;
+      border: none;
+      border-color: white;
+    }
+    .calendatda{
+     
+      font-weight: bold;
+    }
+  
+    @media (max-width:1024px) {
+      
+      .calendatable td{
+        padding: 7px;
+        font-size: 17px;
+        
+      }
+    }
+  
+  
+    @media (max-width:980px) {
+      
+      .calendatable td{
+        padding: 2px;
+        font-size: 14px;
+        
+      }
+    }

@@ -1,0 +1,88 @@
+
+.charts{
+    margin-top: 10%;
+   margin-left: 30%;
+  
+    display: flex;
+  
+}
+
+.formtour-add {
+    box-shadow: 1px 1px 4px;
+    position: absolute;
+    background-color: #ffffffff;
+    z-index: 10;
+    /* background-color: #c29d59; */
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form-titlee {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+
+.form-groupp {
+    margin: 10px 0;
+}
+
+
+.addinput 
+{
+width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.addnumber {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.addtours {
+    background-color: #c29d59;
+    box-shadow: 1px 1px 4px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addtourss{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.addtours:hover {
+    background-color: #d5d8dc;
+}
+@media (max-width:768px) {
+    .formtour-add {
+        box-shadow: 1px 1px 4px;
+        position: absolute;
+        background-color: #ffffffff;
+        z-index: 10;
+        /* background-color: #c29d59; */
+        display: flex;
+        width: 52%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+.charts{
+    margin-top: 23%;
+   margin-left: 30%;
+  
+    display: flex;
+  
+}
+    
+}
